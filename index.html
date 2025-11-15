@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Aplikasi Hitung Pembayaran Belanja</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+<h1>APLIKASI HITUNG PEMBAYARAN BELANJA</h1>
+</header>
+
+
+<div class="container">
+<!-- Barang Pertama -->
+<div class="row">
+<label>Nama Barang Pertama</label>
+<input type="text" id="nama1" />
+
+
+<label>Harga Barang</label>
+<input type="number" id="harga1" />
+
+
+<label>Jumlah Barang</label>
+<input type="number" id="jumlah1" />
+
+
+<label>Jumlah Harga</label>
+<input type="text" id="total1" readonly />
+</div>
+
+
+<!-- Barang Kedua -->
+<div class="row">
+<label>Nama Barang Kedua</label>
+<input type="text" id="nama2" />
+
+
+<label>Harga Barang</label>
+<input type="number" id="harga2" />
+
+
+<label>Jumlah Barang</label>
+<input type="number" id="jumlah2" />
+
+
+<label>Jumlah Harga</label>
+<input type="text" id="total2" readonly />
+</div>
+
+
+<div class="total-bayar">
+<label>Total Bayar</label>
+<input type="text" id="totalBayar" readonly />
+</div>
+
+
+<button id="hitung">HITUNG PEMBAYARAN</button>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>

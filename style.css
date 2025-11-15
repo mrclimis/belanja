@@ -1,0 +1,68 @@
+body {
+font-weight: bold;
+}
+
+
+.container {
+padding: 20px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+
+.row {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 10px;
+background: #fffcf2;
+padding: 15px;
+border-radius: 10px;
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+label {
+font-weight: bold;
+color: #333;
+}
+
+
+input {
+padding: 8px;
+border-radius: 5px;
+border: 1px solid #aaa;
+width: 100%;
+}
+
+
+.total-bayar {
+display: flex;
+flex-direction: column;
+gap: 8px;
+}
+
+
+#hitung {
+padding: 15px;
+background: #fb8500;
+color: white;
+border: none;
+border-radius: 10px;
+font-size: 1.2rem;
+cursor: pointer;
+font-weight: bold;
+}
+
+
+#hitung:hover {
+background: #ff7800;
+}
+
+
+/* Responsive */
+@media (max-width: 600px) {
+.row {
+grid-template-columns: 1fr;
+}
+}
