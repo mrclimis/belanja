@@ -18,6 +18,7 @@ document.getElementById("hitung").addEventListener("click", function () {
 
 // Tombol Bersihkan Data
 document.getElementById("bersihkan").addEventListener("click", function () {
+
     document.getElementById("nama1").value = "";
     document.getElementById("harga1").value = "";
     document.getElementById("jumlah1").value = "";
